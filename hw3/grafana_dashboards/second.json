@@ -35,7 +35,7 @@
       "collapsed": false,
       "datasource": {
         "type": "prometheus",
-        "uid": "E_pt0RZDk"
+        "uid": "${ds_prometheus}"
       },
       "gridPos": {
         "h": 1,
@@ -51,7 +51,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "E_pt0RZDk"
+        "uid": "${ds_prometheus}"
       },
       "fieldConfig": {
         "defaults": {
@@ -126,7 +126,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "E_pt0RZDk"
+        "uid": "${ds_prometheus}"
       },
       "description": "start time of the process",
       "fieldConfig": {
@@ -201,7 +201,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "E_pt0RZDk"
+        "uid": "${ds_prometheus}"
       },
       "fieldConfig": {
         "defaults": {
@@ -275,7 +275,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "E_pt0RZDk"
+        "uid": "${ds_prometheus}"
       },
       "fieldConfig": {
         "defaults": {
@@ -349,7 +349,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "E_pt0RZDk"
+        "uid": "${ds_prometheus}"
       },
       "fieldConfig": {
         "defaults": {
@@ -423,7 +423,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "E_pt0RZDk"
+        "uid": "${ds_prometheus}"
       },
       "fieldConfig": {
         "defaults": {
@@ -500,7 +500,7 @@
       "dashes": false,
       "datasource": {
         "type": "prometheus",
-        "uid": "E_pt0RZDk"
+        "uid": "${ds_prometheus}"
       },
       "description": "Average user and system CPU time spent in seconds.",
       "fieldConfig": {
@@ -591,7 +591,7 @@
       "dashes": false,
       "datasource": {
         "type": "prometheus",
-        "uid": "E_pt0RZDk"
+        "uid": "${ds_prometheus}"
       },
       "description": "Virtual and Resident memory size in bytes, averages over 5 min interval",
       "fieldConfig": {
@@ -689,7 +689,7 @@
       "dashes": false,
       "datasource": {
         "type": "prometheus",
-        "uid": "E_pt0RZDk"
+        "uid": "${ds_prometheus}"
       },
       "description": "Number of open file descriptors",
       "fieldConfig": {
@@ -777,7 +777,7 @@
       "collapsed": false,
       "datasource": {
         "type": "prometheus",
-        "uid": "E_pt0RZDk"
+        "uid": "${ds_prometheus}"
       },
       "gridPos": {
         "h": 1,
@@ -793,7 +793,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "E_pt0RZDk"
+        "uid": "${ds_prometheus}"
       },
       "fieldConfig": {
         "defaults": {
@@ -866,7 +866,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "E_pt0RZDk"
+        "uid": "${ds_prometheus}"
       },
       "fieldConfig": {
         "defaults": {
@@ -939,7 +939,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "E_pt0RZDk"
+        "uid": "${ds_prometheus}"
       },
       "fieldConfig": {
         "defaults": {
@@ -1012,7 +1012,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "E_pt0RZDk"
+        "uid": "${ds_prometheus}"
       },
       "fieldConfig": {
         "defaults": {
@@ -1086,7 +1086,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "E_pt0RZDk"
+        "uid": "${ds_prometheus}"
       },
       "fieldConfig": {
         "defaults": {
@@ -1160,7 +1160,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "E_pt0RZDk"
+        "uid": "${ds_prometheus}"
       },
       "fieldConfig": {
         "defaults": {
@@ -1233,7 +1233,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "E_pt0RZDk"
+        "uid": "${ds_prometheus}"
       },
       "fieldConfig": {
         "defaults": {
@@ -1306,7 +1306,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "E_pt0RZDk"
+        "uid": "${ds_prometheus}"
       },
       "fieldConfig": {
         "defaults": {
@@ -1379,7 +1379,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "E_pt0RZDk"
+        "uid": "${ds_prometheus}"
       },
       "fieldConfig": {
         "defaults": {
@@ -1453,7 +1453,7 @@
       "collapsed": false,
       "datasource": {
         "type": "prometheus",
-        "uid": "E_pt0RZDk"
+        "uid": "${ds_prometheus}"
       },
       "gridPos": {
         "h": 1,
@@ -1473,7 +1473,7 @@
       "dashes": false,
       "datasource": {
         "type": "prometheus",
-        "uid": "E_pt0RZDk"
+        "uid": "${ds_prometheus}"
       },
       "fieldConfig": {
         "defaults": {
@@ -1569,7 +1569,7 @@
       "dashes": false,
       "datasource": {
         "type": "prometheus",
-        "uid": "E_pt0RZDk"
+        "uid": "${ds_prometheus}"
       },
       "fieldConfig": {
         "defaults": {
@@ -1667,7 +1667,7 @@
       "dashes": false,
       "datasource": {
         "type": "prometheus",
-        "uid": "E_pt0RZDk"
+        "uid": "${ds_prometheus}"
       },
       "fieldConfig": {
         "defaults": {
@@ -1761,7 +1761,7 @@
       "dashes": false,
       "datasource": {
         "type": "prometheus",
-        "uid": "E_pt0RZDk"
+        "uid": "${ds_prometheus}"
       },
       "fieldConfig": {
         "defaults": {
@@ -1855,7 +1855,7 @@
       "dashes": false,
       "datasource": {
         "type": "prometheus",
-        "uid": "E_pt0RZDk"
+        "uid": "${ds_prometheus}"
       },
       "fieldConfig": {
         "defaults": {
@@ -1949,7 +1949,7 @@
       "dashes": false,
       "datasource": {
         "type": "prometheus",
-        "uid": "E_pt0RZDk"
+        "uid": "${ds_prometheus}"
       },
       "decimals": 0,
       "fieldConfig": {
@@ -2047,7 +2047,7 @@
       "dashes": false,
       "datasource": {
         "type": "prometheus",
-        "uid": "E_pt0RZDk"
+        "uid": "${ds_prometheus}"
       },
       "fieldConfig": {
         "defaults": {
@@ -2141,7 +2141,7 @@
       "dashes": false,
       "datasource": {
         "type": "prometheus",
-        "uid": "E_pt0RZDk"
+        "uid": "${ds_prometheus}"
       },
       "fieldConfig": {
         "defaults": {
@@ -2236,7 +2236,7 @@
       "dashes": false,
       "datasource": {
         "type": "prometheus",
-        "uid": "E_pt0RZDk"
+        "uid": "${ds_prometheus}"
       },
       "fieldConfig": {
         "defaults": {
@@ -2330,7 +2330,7 @@
       "dashes": false,
       "datasource": {
         "type": "prometheus",
-        "uid": "E_pt0RZDk"
+        "uid": "${ds_prometheus}"
       },
       "decimals": 2,
       "fill": 1,
@@ -2418,7 +2418,7 @@
       "dashes": false,
       "datasource": {
         "type": "prometheus",
-        "uid": "E_pt0RZDk"
+        "uid": "${ds_prometheus}"
       },
       "fill": 1,
       "fillGradient": 0,
@@ -2531,7 +2531,7 @@
       "dashes": false,
       "datasource": {
         "type": "prometheus",
-        "uid": "E_pt0RZDk"
+        "uid": "${ds_prometheus}"
       },
       "decimals": 0,
       "fill": 1,
@@ -2625,7 +2625,7 @@
       "dashes": false,
       "datasource": {
         "type": "prometheus",
-        "uid": "E_pt0RZDk"
+        "uid": "${ds_prometheus}"
       },
       "description": "Total amount of data written to temporary files by queries in this database. All temporary files are counted, regardless of why the temporary file was created, and regardless of the log_temp_files setting.",
       "fill": 1,
@@ -2712,7 +2712,7 @@
       "dashes": false,
       "datasource": {
         "type": "prometheus",
-        "uid": "E_pt0RZDk"
+        "uid": "${ds_prometheus}"
       },
       "fill": 1,
       "fillGradient": 0,
@@ -2893,7 +2893,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "E_pt0RZDk"
+          "uid": "${ds_prometheus}"
         },
         "definition": "",
         "hide": 0,
@@ -2924,7 +2924,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "E_pt0RZDk"
+          "uid": "${ds_prometheus}"
         },
         "definition": "",
         "hide": 0,
@@ -2954,7 +2954,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "E_pt0RZDk"
+          "uid": "${ds_prometheus}"
         },
         "definition": "",
         "hide": 0,
@@ -2984,7 +2984,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "E_pt0RZDk"
+          "uid": "${ds_prometheus}"
         },
         "definition": "",
         "hide": 0,
@@ -3014,7 +3014,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "E_pt0RZDk"
+          "uid": "${ds_prometheus}"
         },
         "definition": "",
         "hide": 0,

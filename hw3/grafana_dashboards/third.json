@@ -135,7 +135,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "E_pt0RZDk"
+        "uid": "${ds_prometheus}"
       },
       "gridPos": {
         "h": 3,
@@ -159,7 +159,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "E_pt0RZDk"
+            "uid": "${ds_prometheus}"
           },
           "refId": "A"
         }
@@ -169,7 +169,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "E_pt0RZDk"
+        "uid": "${ds_prometheus}"
       },
       "description": "Reports Patroni version number.",
       "fieldConfig": {
@@ -251,7 +251,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "E_pt0RZDk"
+            "uid": "${ds_prometheus}"
           },
           "editorMode": "code",
           "expr": "patroni_version{service_name=~\"$service_name\",scope=~\"$scope_name\"}",
@@ -269,7 +269,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "E_pt0RZDk"
+        "uid": "${ds_prometheus}"
       },
       "description": "",
       "fieldConfig": {
@@ -334,7 +334,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "E_pt0RZDk"
+            "uid": "${ds_prometheus}"
           },
           "editorMode": "code",
           "exemplar": false,
@@ -353,7 +353,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "E_pt0RZDk"
+        "uid": "${ds_prometheus}"
       },
       "description": "",
       "fieldConfig": {
@@ -433,7 +433,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "E_pt0RZDk"
+            "uid": "${ds_prometheus}"
           },
           "editorMode": "code",
           "exemplar": false,
@@ -452,7 +452,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "E_pt0RZDk"
+        "uid": "${ds_prometheus}"
       },
       "description": "",
       "fieldConfig": {
@@ -532,7 +532,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "E_pt0RZDk"
+            "uid": "${ds_prometheus}"
           },
           "editorMode": "code",
           "exemplar": false,
@@ -551,7 +551,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "E_pt0RZDk"
+        "uid": "${ds_prometheus}"
       },
       "description": "",
       "fieldConfig": {
@@ -631,7 +631,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "E_pt0RZDk"
+            "uid": "${ds_prometheus}"
           },
           "editorMode": "code",
           "exemplar": false,
@@ -650,7 +650,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "E_pt0RZDk"
+        "uid": "${ds_prometheus}"
       },
       "description": "",
       "fieldConfig": {
@@ -730,7 +730,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "E_pt0RZDk"
+            "uid": "${ds_prometheus}"
           },
           "editorMode": "code",
           "exemplar": false,
@@ -749,7 +749,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "E_pt0RZDk"
+        "uid": "${ds_prometheus}"
       },
       "description": "Reports Patroni version number.",
       "fieldConfig": {
@@ -831,7 +831,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "E_pt0RZDk"
+            "uid": "${ds_prometheus}"
           },
           "editorMode": "code",
           "expr": "patroni_postgres_server_version{service_name=~\"$service_name\",scope=~\"$scope_name\"}",
@@ -849,7 +849,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "E_pt0RZDk"
+        "uid": "${ds_prometheus}"
       },
       "description": "",
       "fieldConfig": {
@@ -914,7 +914,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "E_pt0RZDk"
+            "uid": "${ds_prometheus}"
           },
           "editorMode": "code",
           "exemplar": false,
@@ -933,7 +933,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "E_pt0RZDk"
+        "uid": "${ds_prometheus}"
       },
       "description": "",
       "fieldConfig": {
@@ -1027,7 +1027,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "E_pt0RZDk"
+            "uid": "${ds_prometheus}"
           },
           "editorMode": "code",
           "exemplar": false,
@@ -1042,7 +1042,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "E_pt0RZDk"
+            "uid": "${ds_prometheus}"
           },
           "editorMode": "code",
           "exemplar": false,
@@ -1061,7 +1061,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "E_pt0RZDk"
+        "uid": "${ds_prometheus}"
       },
       "description": "",
       "fieldConfig": {
@@ -1141,7 +1141,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "E_pt0RZDk"
+            "uid": "${ds_prometheus}"
           },
           "editorMode": "code",
           "exemplar": false,
@@ -1160,7 +1160,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "E_pt0RZDk"
+        "uid": "${ds_prometheus}"
       },
       "description": "",
       "fieldConfig": {
@@ -1240,7 +1240,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "E_pt0RZDk"
+            "uid": "${ds_prometheus}"
           },
           "editorMode": "code",
           "exemplar": false,
@@ -1259,7 +1259,7 @@
     {
       "datasource": {
         "type": "prometheus",
-        "uid": "E_pt0RZDk"
+        "uid": "${ds_prometheus}"
       },
       "description": "",
       "fieldConfig": {
@@ -1339,7 +1339,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "E_pt0RZDk"
+            "uid": "${ds_prometheus}"
           },
           "editorMode": "code",
           "exemplar": false,
@@ -1390,7 +1390,7 @@
       "dashes": false,
       "datasource": {
         "type": "prometheus",
-        "uid": "E_pt0RZDk"
+        "uid": "${ds_prometheus}"
       },
       "decimals": 0,
       "description": "",
@@ -1444,7 +1444,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "E_pt0RZDk"
+            "uid": "${ds_prometheus}"
           },
           "editorMode": "code",
           "expr": "patroni_primary{scope=~\"$scope_name\"}",
@@ -1500,7 +1500,7 @@
       "dashes": false,
       "datasource": {
         "type": "prometheus",
-        "uid": "E_pt0RZDk"
+        "uid": "${ds_prometheus}"
       },
       "decimals": 0,
       "description": "",
@@ -1554,7 +1554,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "E_pt0RZDk"
+            "uid": "${ds_prometheus}"
           },
           "editorMode": "code",
           "expr": "patroni_replica{scope=~\"$scope_name\"}",
@@ -1634,7 +1634,7 @@
       "dashes": false,
       "datasource": {
         "type": "prometheus",
-        "uid": "E_pt0RZDk"
+        "uid": "${ds_prometheus}"
       },
       "decimals": 2,
       "description": "",
@@ -1686,7 +1686,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "E_pt0RZDk"
+            "uid": "${ds_prometheus}"
           },
           "editorMode": "code",
           "expr": "patroni_xlog_paused{scope=~\"$scope_name\"}",
@@ -1739,7 +1739,7 @@
       "dashes": false,
       "datasource": {
         "type": "prometheus",
-        "uid": "E_pt0RZDk"
+        "uid": "${ds_prometheus}"
       },
       "decimals": 2,
       "description": "",
@@ -1793,7 +1793,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "E_pt0RZDk"
+            "uid": "${ds_prometheus}"
           },
           "editorMode": "code",
           "exemplar": false,
@@ -1848,7 +1848,7 @@
       "dashes": false,
       "datasource": {
         "type": "prometheus",
-        "uid": "E_pt0RZDk"
+        "uid": "${ds_prometheus}"
       },
       "decimals": 2,
       "description": "",
@@ -1902,7 +1902,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "E_pt0RZDk"
+            "uid": "${ds_prometheus}"
           },
           "editorMode": "code",
           "exemplar": false,
@@ -1957,7 +1957,7 @@
       "dashes": false,
       "datasource": {
         "type": "prometheus",
-        "uid": "E_pt0RZDk"
+        "uid": "${ds_prometheus}"
       },
       "decimals": 2,
       "description": "",
@@ -2011,7 +2011,7 @@
         {
           "datasource": {
             "type": "prometheus",
-            "uid": "E_pt0RZDk"
+            "uid": "${ds_prometheus}"
           },
           "editorMode": "code",
           "exemplar": false,
@@ -2133,7 +2133,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "E_pt0RZDk"
+          "uid": "${ds_prometheus}"
         },
         "definition": "",
         "hide": 2,
@@ -2163,7 +2163,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "E_pt0RZDk"
+          "uid": "${ds_prometheus}"
         },
         "definition": "label_values(pg_up{service_name=~\"$service_name\"},node_name)",
         "hide": 2,
@@ -2194,7 +2194,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "E_pt0RZDk"
+          "uid": "${ds_prometheus}"
         },
         "definition": "label_values(patroni_version, service_name)",
         "hide": 0,
@@ -2224,7 +2224,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "E_pt0RZDk"
+          "uid": "${ds_prometheus}"
         },
         "definition": "",
         "hide": 2,
@@ -2253,7 +2253,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "E_pt0RZDk"
+          "uid": "${ds_prometheus}"
         },
         "definition": "",
         "hide": 2,
@@ -2282,7 +2282,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "E_pt0RZDk"
+          "uid": "${ds_prometheus}"
         },
         "definition": "",
         "hide": 2,
@@ -2311,7 +2311,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "E_pt0RZDk"
+          "uid": "${ds_prometheus}"
         },
         "definition": "",
         "hide": 2,
@@ -2340,7 +2340,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "E_pt0RZDk"
+          "uid": "${ds_prometheus}"
         },
         "definition": "",
         "hide": 2,
@@ -2369,7 +2369,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "E_pt0RZDk"
+          "uid": "${ds_prometheus}"
         },
         "definition": "",
         "hide": 2,
@@ -2398,7 +2398,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "E_pt0RZDk"
+          "uid": "${ds_prometheus}"
         },
         "definition": "",
         "hide": 2,
@@ -2428,7 +2428,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "E_pt0RZDk"
+          "uid": "${ds_prometheus}"
         },
         "definition": "",
         "hide": 2,
@@ -2457,7 +2457,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "E_pt0RZDk"
+          "uid": "${ds_prometheus}"
         },
         "definition": "",
         "hide": 2,
@@ -2486,7 +2486,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "E_pt0RZDk"
+          "uid": "${ds_prometheus}"
         },
         "definition": "",
         "hide": 2,
@@ -2515,7 +2515,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "E_pt0RZDk"
+          "uid": "${ds_prometheus}"
         },
         "definition": "",
         "hide": 2,
@@ -2544,7 +2544,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "E_pt0RZDk"
+          "uid": "${ds_prometheus}"
         },
         "definition": "",
         "hide": 2,
@@ -2573,7 +2573,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "E_pt0RZDk"
+          "uid": "${ds_prometheus}"
         },
         "definition": "",
         "hide": 2,
@@ -2602,7 +2602,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "E_pt0RZDk"
+          "uid": "${ds_prometheus}"
         },
         "definition": "",
         "hide": 2,
@@ -2631,7 +2631,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "E_pt0RZDk"
+          "uid": "${ds_prometheus}"
         },
         "definition": "",
         "hide": 2,
@@ -2660,7 +2660,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "E_pt0RZDk"
+          "uid": "${ds_prometheus}"
         },
         "definition": "",
         "hide": 2,
@@ -2689,7 +2689,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "E_pt0RZDk"
+          "uid": "${ds_prometheus}"
         },
         "definition": "",
         "hide": 2,
@@ -2718,7 +2718,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "E_pt0RZDk"
+          "uid": "${ds_prometheus}"
         },
         "definition": "",
         "hide": 2,
@@ -2747,7 +2747,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "E_pt0RZDk"
+          "uid": "${ds_prometheus}"
         },
         "definition": "",
         "hide": 2,
@@ -2776,7 +2776,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "E_pt0RZDk"
+          "uid": "${ds_prometheus}"
         },
         "definition": "",
         "hide": 2,
@@ -2805,7 +2805,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "E_pt0RZDk"
+          "uid": "${ds_prometheus}"
         },
         "definition": "",
         "hide": 2,
@@ -2834,7 +2834,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "E_pt0RZDk"
+          "uid": "${ds_prometheus}"
         },
         "definition": "",
         "hide": 2,
@@ -2863,7 +2863,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "E_pt0RZDk"
+          "uid": "${ds_prometheus}"
         },
         "definition": "",
         "hide": 2,
@@ -2892,7 +2892,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "E_pt0RZDk"
+          "uid": "${ds_prometheus}"
         },
         "definition": "",
         "hide": 2,
@@ -2921,7 +2921,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "E_pt0RZDk"
+          "uid": "${ds_prometheus}"
         },
         "definition": "",
         "hide": 2,
@@ -2950,7 +2950,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "E_pt0RZDk"
+          "uid": "${ds_prometheus}"
         },
         "definition": "",
         "hide": 2,
@@ -2979,7 +2979,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "E_pt0RZDk"
+          "uid": "${ds_prometheus}"
         },
         "definition": "",
         "hide": 2,
@@ -3008,7 +3008,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "E_pt0RZDk"
+          "uid": "${ds_prometheus}"
         },
         "definition": "",
         "hide": 2,
@@ -3037,7 +3037,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "E_pt0RZDk"
+          "uid": "${ds_prometheus}"
         },
         "definition": "",
         "hide": 2,
@@ -3066,7 +3066,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "E_pt0RZDk"
+          "uid": "${ds_prometheus}"
         },
         "definition": "",
         "hide": 2,
@@ -3095,7 +3095,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "E_pt0RZDk"
+          "uid": "${ds_prometheus}"
         },
         "definition": "",
         "hide": 2,
@@ -3124,7 +3124,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "E_pt0RZDk"
+          "uid": "${ds_prometheus}"
         },
         "definition": "",
         "hide": 2,
@@ -3154,7 +3154,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "E_pt0RZDk"
+          "uid": "${ds_prometheus}"
         },
         "definition": "",
         "hide": 2,
@@ -3183,7 +3183,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "E_pt0RZDk"
+          "uid": "${ds_prometheus}"
         },
         "definition": "",
         "hide": 2,
@@ -3212,7 +3212,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "E_pt0RZDk"
+          "uid": "${ds_prometheus}"
         },
         "definition": "",
         "hide": 2,
@@ -3241,7 +3241,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "E_pt0RZDk"
+          "uid": "${ds_prometheus}"
         },
         "definition": "",
         "hide": 2,
@@ -3270,7 +3270,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "E_pt0RZDk"
+          "uid": "${ds_prometheus}"
         },
         "definition": "",
         "hide": 2,
@@ -3299,7 +3299,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "E_pt0RZDk"
+          "uid": "${ds_prometheus}"
         },
         "definition": "",
         "hide": 2,
@@ -3329,7 +3329,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "E_pt0RZDk"
+          "uid": "${ds_prometheus}"
         },
         "definition": "label_values({__name__=~\"pg_up|mysql_up|mongodb_up|proxysql_mysql_status_active_transactions\"}, environment)",
         "hide": 2,
@@ -3359,7 +3359,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "E_pt0RZDk"
+          "uid": "${ds_prometheus}"
         },
         "definition": "label_values({__name__=~\"pg_up|mysql_up|mongodb_up|proxysql_mysql_status_active_transactions\"}, cluster)",
         "hide": 2,
@@ -3389,7 +3389,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "E_pt0RZDk"
+          "uid": "${ds_prometheus}"
         },
         "definition": "label_values({__name__=~\"pg_up|mysql_up|mongodb_up|proxysql_mysql_status_active_transactions\"}, replication_set)",
         "hide": 2,
@@ -3419,7 +3419,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "E_pt0RZDk"
+          "uid": "${ds_prometheus}"
         },
         "definition": "label_values({__name__=~\"pg_up|mysql_up|mongodb_up|proxysql_mysql_status_active_transactions\"}, node_type)",
         "hide": 2,
@@ -3449,7 +3449,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "E_pt0RZDk"
+          "uid": "${ds_prometheus}"
         },
         "definition": "label_values({__name__=~\"pg_up|mysql_up|mongodb_up|proxysql_mysql_status_active_transactions\"}, service_type)",
         "hide": 2,
@@ -3479,7 +3479,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "E_pt0RZDk"
+          "uid": "${ds_prometheus}"
         },
         "definition": "label_values(mysql_info_schema_user_statistics_connected_time_seconds_total{service_name=\"$service_name\"},user)",
         "hide": 2,
@@ -3509,7 +3509,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "E_pt0RZDk"
+          "uid": "${ds_prometheus}"
         },
         "definition": "label_values({__name__=~\"pg_up|mysql_up|mongodb_up|proxysql_mysql_status_active_transactions\"}, schema)",
         "hide": 2,
@@ -3540,7 +3540,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "E_pt0RZDk"
+          "uid": "${ds_prometheus}"
         },
         "definition": "label_values(pg_up{service_name=\"$service_name\"}, service_id)",
         "hide": 2,
@@ -3570,7 +3570,7 @@
         },
         "datasource": {
           "type": "prometheus",
-          "uid": "E_pt0RZDk"
+          "uid": "${ds_prometheus}"
         },
         "definition": "label_values(patroni_version, scope)",
         "hide": 0,
